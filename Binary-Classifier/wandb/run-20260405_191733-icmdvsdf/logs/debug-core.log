@@ -1,0 +1,13 @@
+{"time":"2026-04-05T19:17:32.059571186-07:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpzrc4v4_8/port-2627902.txt","pid":2627902,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2026-04-05T19:17:32.087884798-07:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":2627902}
+{"time":"2026-04-05T19:17:32.087975129-07:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":33577,"Zone":""}}
+{"time":"2026-04-05T19:17:32.276064015-07:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:17:33.655456753-07:00","level":"INFO","msg":"handleInformInit: received","streamId":"icmdvsdf","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:17:33.899187218-07:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"icmdvsdf","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:18:14.406453706-07:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:18:14.406632672-07:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:18:14.406706652-07:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:18:14.406719161-07:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2026-04-05T19:18:15.633179081-07:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:18:15.633200108-07:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:60864"}
+{"time":"2026-04-05T19:18:15.633210937-07:00","level":"INFO","msg":"server is closed"}

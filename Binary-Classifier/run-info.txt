@@ -1,0 +1,53 @@
+25% RUN INFO
+{'loss': 0.6807, 'grad_norm': 9.400043487548828, 'learning_rate': 2.5e-05, 'epoch': 0.56}      
+{'train_runtime': 152.0216, 'train_samples_per_second': 7.473, 'train_steps_per_second': 0.118, 'train_loss': 0.6771526601579454, 'epoch': 1.0}
+100%|██████████████████████████████████████████████████████████| 18/18 [02:30<00:00,  8.39s/it]
+100%|██████████████████████████████████████████████████████████| 26/26 [01:39<00:00,  3.83s/it]
+{'Soundscape_loss': 0.7052859663963318, 'Soundscape_cMAP': 0.46230560541152954, 'Soundscape_ROCAUC': 0.43451517820358276, 'Soundscape_runtime': 115.5704, 'Soundscape_samples_per_second': 7.026, 'Soundscape_steps_per_second': 0.225, 'epoch': 1.0}
+data used, including split, is in coral_ads_25_percent.csv
+trained model is in 25_percent_72d3c17.pt
+
+50% RUN INFO
+{'loss': 0.69, 'grad_norm': 12.767844200134277, 'learning_rate': 3.7500000000000003e-05, 'epoch': 0.28}                            
+{'loss': 0.6573, 'grad_norm': 7.887083053588867, 'learning_rate': 2.361111111111111e-05, 'epoch': 0.56}                            
+{'valid_loss': 0.7012588977813721, 'valid_cMAP': 0.5195643901824951, 'valid_ROCAUC': 0.5340268611907959, 'valid_runtime': 163.4185, 'valid_samples_per_second': 5.972, 'valid_steps_per_second': 0.19, 'epoch': 0.56}                                                 {'loss': 0.6578, 'grad_norm': 10.867864608764648, 'learning_rate': 9.722222222222223e-06, 'epoch': 0.83}                           {'train_runtime': 433.8926, 'train_samples_per_second': 5.246, 'train_steps_per_second': 0.083, 'train_loss': 0.6692032019297282, 'epoch': 1.0}
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 36/36 [07:12<00:00, 12.03s/it]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 51/51 [03:30<00:00,  4.13s/it]
+{'Soundscape_loss': 0.7080638408660889, 'Soundscape_cMAP': 0.5826939344406128, 'Soundscape_ROCAUC': 0.6327642202377319, 'Soundscape_runtime': 225.966, 'Soundscape_samples_per_second': 7.196, 'Soundscape_steps_per_second': 0.226, 'epoch': 1.0}
+
+75% RUN INFO
+{'loss': 0.6813, 'grad_norm': 12.064004898071289, 'learning_rate': 4.375e-05, 'epoch': 0.14}   
+{'loss': 0.6675, 'grad_norm': 11.737177848815918, 'learning_rate': 3.6805555555555556e-05, 'epoch': 0.28}
+{'valid_loss': 0.7011932730674744, 'valid_cMAP': 0.5257932543754578, 'valid_ROCAUC': 0.5197758674621582, 'valid_runtime': 267.4556, 'valid_samples_per_second': 7.302, 'valid_steps_per_second': 0.232, 'epoch': 0.28}
+{'loss': 0.644, 'grad_norm': 12.52698040008545, 'learning_rate': 2.9861111111111113e-05, 'epoch': 0.42}                                                                                       
+{'loss': 0.6343, 'grad_norm': 17.35026741027832, 'learning_rate': 2.2916666666666667e-05, 'epoch': 0.56}
+{'valid_loss': 0.696833610534668, 'valid_cMAP': 0.4816867709159851, 'valid_ROCAUC': 0.47911691665649414, 'valid_runtime': 285.6058, 'valid_samples_per_second': 6.838, 'valid_steps_per_second': 0.217, 'epoch': 0.56}
+{'loss': 0.6216, 'grad_norm': 16.705814361572266, 'learning_rate': 1.597222222222222e-05, 'epoch': 0.69}                                                                                      
+{'loss': 0.599, 'grad_norm': 17.35076141357422, 'learning_rate': 9.027777777777777e-06, 'epoch': 0.83}
+{'valid_loss': 0.728574275970459, 'valid_cMAP': 0.4632532596588135, 'valid_ROCAUC': 0.4471544623374939, 'valid_runtime': 284.769, 'valid_samples_per_second': 6.858, 'valid_steps_per_second': 0.218, 'epoch': 0.83}
+{'loss': 0.5852, 'grad_norm': 15.622611045837402, 'learning_rate': 2.0833333333333334e-06, 'epoch': 0.97}                                                                                     
+{'train_runtime': 1242.6283, 'train_samples_per_second': 3.666, 'train_steps_per_second': 0.058, 'train_loss': 0.6309419671694437, 'epoch': 1.0}
+100%|██████████████████████████████████████████████████████████| 72/72 [20:41<00:00, 17.25s/it]
+100%|████████████████████████████████████████████████████████████████████████████████████████████| 102/102 [06:52<00:00,  4.04s/it]
+{'Soundscape_loss': 0.9869617223739624, 'Soundscape_cMAP': 0.5027065873146057, 'Soundscape_ROCAUC': 0.4952623248100281, 'Soundscape_runtime': 428.7797, 'Soundscape_samples_per_second': 7.589, 'Soundscape_steps_per_second': 0.238, 'epoch': 1.0}
+
+100% RUN INFO
+train split distribution:
+  Williams_et_al_2024 - Non_Degraded_Reef: 1149
+  Williams_et_al_2024 - Degraded_Reef: 1145
+  PaolaCostaRica - Non_Degraded_Reef: 1135
+  PaolaCostaRica - Degraded_Reef: 1126
+Casting the dataset: 100%|███████████████████████████████████████████████████████████| 1953/1953 [00:00<00:00, 71694.05 examples/s]
+valid split distribution:
+  PaolaCostaRica - Degraded_Reef: 501
+  PaolaCostaRica - Non_Degraded_Reef: 492
+  Williams_et_al_2024 - Non_Degraded_Reef: 478
+  Williams_et_al_2024 - Degraded_Reef: 482
+Casting the dataset: 100%|███████████████████████████████████████████████████████████| 3254/3254 [00:00<00:00, 71709.94 examples/s]
+test split distribution:
+  PaolaMexico - Non_Degraded_Reef: 1627
+  PaolaMexico - Degraded_Reef: 1627
+
+
+{'loss': 0.6823, 'grad_norm': 14.602385520935059, 'learning_rate': 4.375e-05, 'epoch': 0.14}                                       {'loss': 0.662, 'grad_norm': 11.29389476776123, 'learning_rate': 3.6805555555555556e-05, 'epoch': 0.28}                            {'valid_loss': 0.7054733037948608, 'valid_cMAP': 0.44962623715400696, 'valid_ROCAUC': 0.4283187985420227, 'valid_runtime': 268.8814, 'valid_samples_per_second': 7.263, 'valid_steps_per_second': 0.231, 'epoch': 0.28}                                               {'loss': 0.6467, 'grad_norm': 11.877161026000977, 'learning_rate': 2.9861111111111113e-05, 'epoch': 0.42}                          {'loss': 0.6438, 'grad_norm': 17.556276321411133, 'learning_rate': 2.2916666666666667e-05, 'epoch': 0.56}                          {'valid_loss': 0.699942409992218, 'valid_cMAP': 0.4532836377620697, 'valid_ROCAUC': 0.4418100118637085, 'valid_runtime': 280.1727, 'valid_samples_per_second': 6.971, 'valid_steps_per_second': 0.221, 'epoch': 0.56}                                                 {'loss': 0.6312, 'grad_norm': 17.427595138549805, 'learning_rate': 1.597222222222222e-05, 'epoch': 0.69}                           {'loss': 0.6156, 'grad_norm': 14.542396545410156, 'learning_rate': 9.027777777777777e-06, 'epoch': 0.83}                           {'valid_loss': 0.7165136337280273, 'valid_cMAP': 0.44873785972595215, 'valid_ROCAUC': 0.4247357249259949, 'valid_runtime': 281.5417, 'valid_samples_per_second': 6.937, 'valid_steps_per_second': 0.22, 'epoch': 0.83}                                                {'loss': 0.6057, 'grad_norm': 12.659685134887695, 'learning_rate': 2.0833333333333334e-06, 'epoch': 0.97}                          {'train_runtime': 1237.2745, 'train_samples_per_second': 3.681, 'train_steps_per_second': 0.058, 'train_loss': 0.6402778956625197, 'epoch': 1.0}
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 72/72 [20:36<00:00, 17.17s/it]100%|████████████████████████████████████████████████████████████████████████████████████████████| 102/102 [06:43<00:00,  3.96s/it]{'Soundscape_loss': 1.5631247758865356, 'Soundscape_cMAP': 0.531050443649292, 'Soundscape_ROCAUC': 0.5121446847915649, 'Soundscape_runtime': 419.2321, 'Soundscape_samples_per_second': 7.762, 'Soundscape_steps_per_second': 0.243, 'epoch': 1.0}

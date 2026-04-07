@@ -1,0 +1,14 @@
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 72/72 [20:36<00:00, 17.17s/it]
+{'loss': 0.6823, 'grad_norm': 14.602385520935059, 'learning_rate': 4.375e-05, 'epoch': 0.14}
+{'loss': 0.662, 'grad_norm': 11.29389476776123, 'learning_rate': 3.6805555555555556e-05, 'epoch': 0.28}
+100%|████████████████████████████████████████████████████████████████████████████████████████████| 102/102 [06:43<00:00,  3.96s/it]
+{'valid_loss': 0.7054733037948608, 'valid_cMAP': 0.44962623715400696, 'valid_ROCAUC': 0.4283187985420227, 'valid_runtime': 268.8814, 'valid_samples_per_second': 7.263, 'valid_steps_per_second': 0.231, 'epoch': 0.28}
+{'loss': 0.6467, 'grad_norm': 11.877161026000977, 'learning_rate': 2.9861111111111113e-05, 'epoch': 0.42}
+{'loss': 0.6438, 'grad_norm': 17.556276321411133, 'learning_rate': 2.2916666666666667e-05, 'epoch': 0.56}
+{'valid_loss': 0.699942409992218, 'valid_cMAP': 0.4532836377620697, 'valid_ROCAUC': 0.4418100118637085, 'valid_runtime': 280.1727, 'valid_samples_per_second': 6.971, 'valid_steps_per_second': 0.221, 'epoch': 0.56}
+{'loss': 0.6312, 'grad_norm': 17.427595138549805, 'learning_rate': 1.597222222222222e-05, 'epoch': 0.69}
+{'loss': 0.6156, 'grad_norm': 14.542396545410156, 'learning_rate': 9.027777777777777e-06, 'epoch': 0.83}
+{'valid_loss': 0.7165136337280273, 'valid_cMAP': 0.44873785972595215, 'valid_ROCAUC': 0.4247357249259949, 'valid_runtime': 281.5417, 'valid_samples_per_second': 6.937, 'valid_steps_per_second': 0.22, 'epoch': 0.83}
+{'loss': 0.6057, 'grad_norm': 12.659685134887695, 'learning_rate': 2.0833333333333334e-06, 'epoch': 0.97}
+{'train_runtime': 1237.2745, 'train_samples_per_second': 3.681, 'train_steps_per_second': 0.058, 'train_loss': 0.6402778956625197, 'epoch': 1.0}
+{'Soundscape_loss': 1.5631247758865356, 'Soundscape_cMAP': 0.531050443649292, 'Soundscape_ROCAUC': 0.5121446847915649, 'Soundscape_runtime': 419.2321, 'Soundscape_samples_per_second': 7.762, 'Soundscape_steps_per_second': 0.243, 'epoch': 1.0}

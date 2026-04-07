@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.8.0-94-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.11.12",
+  "startedAt": "2026-04-06T18:45:36.776772Z",
+  "program": "/home/s.kamboj.400/pyha-analyzer-2.0/demo-notebooks/Coral-Re-Run/train_25_percent.py",
+  "codePath": "demo-notebooks/Coral-Re-Run/train_25_percent.py",
+  "git": {
+    "remote": "git@github.com:UCSD-E4E/pyha-analyzer-2.0.git",
+    "commit": "72d3c1753ce235eed08d84863869c3450affdbc5"
+  },
+  "email": "sskamboj@ucsd.edu",
+  "root": "/home/s.kamboj.400/pyha-analyzer-2.0/demo-notebooks/Coral-Re-Run",
+  "host": "kastner-ml",
+  "executable": "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/bin/python3",
+  "codePathLocal": "train_25_percent.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "8001561812992",
+      "used": "2963683901440"
+    }
+  },
+  "memory": {
+    "total": "134975320064"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "13.0"
+}

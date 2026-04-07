@@ -1,0 +1,15 @@
+{"time":"2026-04-06T09:59:58.928982365-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/s.kamboj.400/pyha-analyzer-2.0/demo-notebooks/Coral-Re-Run/wandb/run-20260406_095958-prgm8ebk/logs/debug-core.log"}
+{"time":"2026-04-06T09:59:59.13868824-07:00","level":"INFO","msg":"created new stream","id":"prgm8ebk"}
+{"time":"2026-04-06T09:59:59.138744368-07:00","level":"INFO","msg":"stream: started","id":"prgm8ebk"}
+{"time":"2026-04-06T09:59:59.142583251-07:00","level":"INFO","msg":"sender: started","stream_id":"prgm8ebk"}
+{"time":"2026-04-06T09:59:59.142581179-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"prgm8ebk"}
+{"time":"2026-04-06T09:59:59.142657338-07:00","level":"INFO","msg":"handler: started","stream_id":"prgm8ebk"}
+{"time":"2026-04-06T09:59:59.593615687-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-04-06T10:03:12.981421449-07:00","level":"INFO","msg":"stream: closing","id":"prgm8ebk"}
+{"time":"2026-04-06T10:03:12.9814618-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-04-06T10:03:12.981696438-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-04-06T10:03:13.487431746-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-04-06T10:03:13.822889188-07:00","level":"INFO","msg":"handler: closed","stream_id":"prgm8ebk"}
+{"time":"2026-04-06T10:03:13.822954505-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"prgm8ebk"}
+{"time":"2026-04-06T10:03:13.823018402-07:00","level":"INFO","msg":"sender: closed","stream_id":"prgm8ebk"}
+{"time":"2026-04-06T10:03:13.823032587-07:00","level":"INFO","msg":"stream: closed","id":"prgm8ebk"}

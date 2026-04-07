@@ -1,0 +1,13 @@
+{"time":"2026-04-05T21:00:13.502818609-07:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpqxrhbhdv/port-2641960.txt","pid":2641960,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2026-04-05T21:00:13.52785945-07:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":2641960}
+{"time":"2026-04-05T21:00:13.527862085-07:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":41153,"Zone":""}}
+{"time":"2026-04-05T21:00:13.681590372-07:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:00:14.724594295-07:00","level":"INFO","msg":"handleInformInit: received","streamId":"uxma2ucb","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:00:14.934042261-07:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"uxma2ucb","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:04:42.746330874-07:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:04:42.746498117-07:00","level":"INFO","msg":"connection: closing","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:04:42.746566432-07:00","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:04:42.746577783-07:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2026-04-05T21:04:43.452900389-07:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:04:43.452921516-07:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:38906"}
+{"time":"2026-04-05T21:04:43.452976313-07:00","level":"INFO","msg":"server is closed"}

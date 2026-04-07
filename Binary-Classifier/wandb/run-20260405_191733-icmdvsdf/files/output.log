@@ -1,0 +1,48 @@
+  0%|                                                                   | 0/18 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/demo-notebooks/Coral-Re-Run/train_25_percent.py", line 90, in <module>
+    trainer.train()
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 3801, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/pyha_analyzer/models/base_model.py", line 28, in wrapper
+    model_output = forward(self, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/pyha_analyzer/models/efficientnet.py", line 30, in forward
+    output = self.model(pixel_values=input, labels=labels)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/models/efficientnet/modeling_efficientnet.py", line 634, in forward
+    loss = loss_fct(logits, labels)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/loss.py", line 821, in forward
+    return F.binary_cross_entropy_with_logits(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/functional.py", line 3639, in binary_cross_entropy_with_logits
+    raise ValueError(
+ValueError: Target size (torch.Size([64, 3])) must be the same as input size (torch.Size([64, 2]))

@@ -1,0 +1,5 @@
+100%|██████████████████████████████████████████████████████████| 18/18 [02:30<00:00,  8.39s/it]
+{'loss': 0.6807, 'grad_norm': 9.400043487548828, 'learning_rate': 2.5e-05, 'epoch': 0.56}
+{'train_runtime': 152.0216, 'train_samples_per_second': 7.473, 'train_steps_per_second': 0.118, 'train_loss': 0.6771526601579454, 'epoch': 1.0}
+100%|██████████████████████████████████████████████████████████| 26/26 [01:39<00:00,  3.83s/it]
+{'Soundscape_loss': 0.7052859663963318, 'Soundscape_cMAP': 0.46230560541152954, 'Soundscape_ROCAUC': 0.43451517820358276, 'Soundscape_runtime': 115.5704, 'Soundscape_samples_per_second': 7.026, 'Soundscape_steps_per_second': 0.225, 'epoch': 1.0}

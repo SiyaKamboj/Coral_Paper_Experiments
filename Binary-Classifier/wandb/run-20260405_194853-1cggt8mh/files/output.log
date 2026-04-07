@@ -1,0 +1,40 @@
+100%|██████████████████████████████████████████████████████████| 18/18 [02:48<00:00,  9.36s/it]
+{'loss': 0.6841, 'grad_norm': 9.764741897583008, 'learning_rate': 2.5e-05, 'epoch': 0.56}
+{'train_runtime': 169.2614, 'train_samples_per_second': 6.712, 'train_steps_per_second': 0.106, 'train_loss': 0.6760087013244629, 'epoch': 1.0}
+100%|██████████████████████████████████████████████████████████| 26/26 [01:36<00:00,  2.53s/it]Traceback (most recent call last):
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/demo-notebooks/Coral-Re-Run/train_25_percent.py", line 107, in <module>
+    print(trainer.evaluate(eval_dataset=coral_ads["test"], metric_key_prefix="Soundscape"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/pyha_analyzer/trainer.py", line 109, in evaluate
+    result = super().evaluate(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 4154, in evaluate
+    output = eval_loop(
+             ^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 4443, in evaluation_loop
+    metrics = self.compute_metrics(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/pyha_analyzer/metrics/evaluate.py", line 59, in __call__
+    result[metric_name] = self.metrics_to_run[metric_name](
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/pyha_analyzer/metrics/classification_metrics.py", line 38, in __call__
+    map_by_class = self.metric(logits, target)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torchmetrics/metric.py", line 315, in forward
+    self._forward_cache = self._forward_reduce_state_update(*args, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torchmetrics/metric.py", line 384, in _forward_reduce_state_update
+    self.update(*args, **kwargs)
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torchmetrics/metric.py", line 549, in wrapped_func
+    update(*args, **kwargs)
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torchmetrics/classification/precision_recall_curve.py", line 562, in update
+    _multilabel_precision_recall_curve_tensor_validation(preds, target, self.num_labels, self.ignore_index)
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torchmetrics/functional/classification/precision_recall_curve.py", line 739, in _multilabel_precision_recall_curve_tensor_validation
+    raise ValueError(
+ValueError: Expected both `target.shape[1]` and `preds.shape[1]` to be equal to the number of labels but got 2 and expected 3

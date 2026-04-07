@@ -1,0 +1,34 @@
+ 26%|███████████████▎                                          | 19/72 [02:39<03:50,  4.34s/it]Traceback (most recent call last):
+{'loss': 0.6802, 'grad_norm': 13.482015609741211, 'learning_rate': 4.375e-05, 'epoch': 0.14}
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/demo-notebooks/Coral-Re-Run/train_25_percent.py", line 90, in <module>
+    trainer.train()
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 2514, in _inner_training_loop
+    batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches, args.device)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 5247, in get_batch_samples
+    batch_samples.append(next(epoch_iterator))
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/accelerate/data_loader.py", line 577, in __iter__
+    next_batch = next(dataloader_iter)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1491, in _next_data
+    idx, data = self._get_data()
+                ^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1443, in _get_data
+    success, data = self._try_get_data()
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/pyha-analyzer-2.0/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1284, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s.kamboj.400/.local/share/uv/python/cpython-3.11.12-linux-x86_64-gnu/lib/python3.11/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/home/s.kamboj.400/.local/share/uv/python/cpython-3.11.12-linux-x86_64-gnu/lib/python3.11/threading.py", line 331, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
